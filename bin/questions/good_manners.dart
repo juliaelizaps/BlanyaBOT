@@ -1,7 +1,8 @@
+
 class GoodManners{
   String question;
   bool isThisGoodManners = false;
-  String kakoBot = 'KakoBOT:\n';
+  String blanyaBot = 'BlanyaBot:\n';
   GoodManners(this.question);
 
   bool isThisManners(){
@@ -26,15 +27,15 @@ class GoodManners{
 
   goodManners(){
     if(question.contains('Bom dia')|| question.contains('bom dia')){
-      print(kakoBot+' Bom dia Flor do dia!');
+      print(blanyaBot+' Bom dia Flor do dia!');
     } else if(question.contains('Boa tarde')|| question.contains('boa tarde')){
-      print(kakoBot+' Opa sô, boa tarde!');
+      print(blanyaBot+' Opa sô, boa tarde!');
     } else if(question.contains('Boa noite')|| question.contains('boa noite')){
-      print(kakoBot+ ' Uma bela noite, não é mesmo?');
+      print(blanyaBot+ ' Uma bela noite, não é mesmo?');
     } else if(question.contains('oi')|| question.contains('Oi') || question.contains('Ola')|| question.contains('ola')){
-      print(kakoBot+' Muito prazer!');
+      print(blanyaBot+' Muito prazer!');
     } else if( question.contains('obrigado')|| question.contains('Obrigado') || question.contains('Obrigada')|| question.contains('obrigada')){
-      print(kakoBot + ' De nada, fique a vontade c:');
+      print(blanyaBot + ' De nada, fique a vontade c:');
     }
   }
 
