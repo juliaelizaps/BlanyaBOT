@@ -39,7 +39,7 @@ Future<int> myFutureFunc()async{
     
 
     Future<int>myFutureErrorFunc (int a, int b) async{
-      //try{}catch{}finally{}
+      //try{}catch(e){}finally{}
       try{
         if(a>b){
         throw Exception();
